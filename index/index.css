@@ -1,0 +1,10 @@
+@media all and (max-width: 740px) {
+    img {
+        display: block; 
+        height: 33%;
+        margin: 13% auto;
+        content:url("../basics/juliyalogosmall.png");
+        
+    }
+}
+

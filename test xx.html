@@ -1,0 +1,24 @@
+
+<html>
+    <style>
+label
+ {
+    display: block;
+    background: lightgrey;
+    width: 100px;
+    height: 100px;
+}
+#menuIconClick {
+    display: none;
+}
+
+#menuIconclick:checked + label {
+    background: blue;
+    color: white;
+}
+</style>
+<body>
+<input type="checkbox" id="menuIconClick" />
+<label for="menuIconClick">I'm a square. Click me.</label>
+</body>
+<html>
